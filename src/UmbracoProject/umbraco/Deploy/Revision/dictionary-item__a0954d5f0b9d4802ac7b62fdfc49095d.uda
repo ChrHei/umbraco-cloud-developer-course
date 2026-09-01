@@ -1,0 +1,41 @@
+{
+  "Name": "umb://dictionary-item/a0954d5f0b9d4802ac7b62fdfc49095d",
+  "ItemKey": "WhatWillItBe",
+  "Translations": [
+    {
+      "Key": "a0954d5f-0b9d-4802-ac7b-62fdfc49095d",
+      "Value": "Hvad bliver det i dag?",
+      "LanguageIsoCode": "da"
+    },
+    {
+      "Key": "a0954d5f-0b9d-4802-ac7b-62fdfc49095d",
+      "Value": "What will it be today?",
+      "LanguageIsoCode": "en-US"
+    },
+    {
+      "Key": "a0954d5f-0b9d-4802-ac7b-62fdfc49095d",
+      "Value": "\u00BFQu\u00E9 ser\u00E1 hoy?",
+      "LanguageIsoCode": "es"
+    }
+  ],
+  "Udi": "umb://dictionary-item/a0954d5f0b9d4802ac7b62fdfc49095d",
+  "Dependencies": [
+    {
+      "Udi": "umb://language/da",
+      "Ordering": true,
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://language/en-US",
+      "Ordering": true,
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://language/es",
+      "Ordering": true,
+      "Mode": "Exist"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DictionaryItemArtifact",
+  "__version": "18.0.1"
+}

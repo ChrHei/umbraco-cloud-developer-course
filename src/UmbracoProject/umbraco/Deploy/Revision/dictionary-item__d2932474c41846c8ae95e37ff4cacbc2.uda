@@ -1,0 +1,41 @@
+{
+  "Name": "umb://dictionary-item/d2932474c41846c8ae95e37ff4cacbc2",
+  "ItemKey": "Blogs",
+  "Translations": [
+    {
+      "Key": "d2932474-c418-46c8-ae95-e37ff4cacbc2",
+      "Value": "Sidste nyt og forskellige tanker",
+      "LanguageIsoCode": "da"
+    },
+    {
+      "Key": "d2932474-c418-46c8-ae95-e37ff4cacbc2",
+      "Value": "Latest news and various thoughts",
+      "LanguageIsoCode": "en-US"
+    },
+    {
+      "Key": "d2932474-c418-46c8-ae95-e37ff4cacbc2",
+      "Value": "\u00DAltimas noticias y pensamientos varios",
+      "LanguageIsoCode": "es"
+    }
+  ],
+  "Udi": "umb://dictionary-item/d2932474c41846c8ae95e37ff4cacbc2",
+  "Dependencies": [
+    {
+      "Udi": "umb://language/da",
+      "Ordering": true,
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://language/en-US",
+      "Ordering": true,
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://language/es",
+      "Ordering": true,
+      "Mode": "Exist"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DictionaryItemArtifact",
+  "__version": "18.0.1"
+}

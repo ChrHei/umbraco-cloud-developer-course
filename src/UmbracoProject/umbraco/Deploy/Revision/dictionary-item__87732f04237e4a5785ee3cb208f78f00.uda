@@ -1,0 +1,41 @@
+{
+  "Name": "umb://dictionary-item/87732f04237e4a5785ee3cb208f78f00",
+  "ItemKey": "DescFundamentals",
+  "Translations": [
+    {
+      "Key": "87732f04-237e-4a57-85ee-3cb208f78f00",
+      "Value": "L\u00E6r hvordan du opbygger en grundl\u00E6ggende hjemmeside efter bedste praksis.",
+      "LanguageIsoCode": "da"
+    },
+    {
+      "Key": "87732f04-237e-4a57-85ee-3cb208f78f00",
+      "Value": "Learn how to build a basic site following the best practices.",
+      "LanguageIsoCode": "en-US"
+    },
+    {
+      "Key": "87732f04-237e-4a57-85ee-3cb208f78f00",
+      "Value": "Aprende a construir un sitio b\u00E1sico siguiendo las mejores pr\u00E1cticas.",
+      "LanguageIsoCode": "es"
+    }
+  ],
+  "Udi": "umb://dictionary-item/87732f04237e4a5785ee3cb208f78f00",
+  "Dependencies": [
+    {
+      "Udi": "umb://language/da",
+      "Ordering": true,
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://language/en-US",
+      "Ordering": true,
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://language/es",
+      "Ordering": true,
+      "Mode": "Exist"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DictionaryItemArtifact",
+  "__version": "18.0.1"
+}

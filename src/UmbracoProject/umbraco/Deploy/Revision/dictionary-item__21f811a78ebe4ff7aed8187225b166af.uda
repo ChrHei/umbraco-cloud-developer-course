@@ -1,0 +1,41 @@
+{
+  "Name": "umb://dictionary-item/21f811a78ebe4ff7aed8187225b166af",
+  "ItemKey": "DescSearch",
+  "Translations": [
+    {
+      "Key": "21f811a7-8ebe-4ff7-aed8-187225b166af",
+      "Value": "Brug Examine til at bygge en dynamisk og kraftfuld s\u00F8getjeneste til din hjemmeside.",
+      "LanguageIsoCode": "da"
+    },
+    {
+      "Key": "21f811a7-8ebe-4ff7-aed8-187225b166af",
+      "Value": "Use Examine to build a dynamic and powerful search service for your website.",
+      "LanguageIsoCode": "en-US"
+    },
+    {
+      "Key": "21f811a7-8ebe-4ff7-aed8-187225b166af",
+      "Value": "Use Examine para crear un servicio de b\u00FAsqueda din\u00E1mico y potente para su sitio web.",
+      "LanguageIsoCode": "es"
+    }
+  ],
+  "Udi": "umb://dictionary-item/21f811a78ebe4ff7aed8187225b166af",
+  "Dependencies": [
+    {
+      "Udi": "umb://language/da",
+      "Ordering": true,
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://language/en-US",
+      "Ordering": true,
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://language/es",
+      "Ordering": true,
+      "Mode": "Exist"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DictionaryItemArtifact",
+  "__version": "18.0.1"
+}

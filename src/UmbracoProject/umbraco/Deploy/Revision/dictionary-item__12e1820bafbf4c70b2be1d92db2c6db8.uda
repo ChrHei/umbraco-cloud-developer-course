@@ -1,0 +1,41 @@
+{
+  "Name": "umb://dictionary-item/12e1820bafbf4c70b2be1d92db2c6db8",
+  "ItemKey": "AboutYourself",
+  "Translations": [
+    {
+      "Key": "12e1820b-afbf-4c70-b2be-1d92db2c6db8",
+      "Value": "Hvorfor ikke sige lidt mere om dig selv? Brug denne plads, som du vil.\nDe kommende generationer kan l\u00E6re af dig.",
+      "LanguageIsoCode": "da"
+    },
+    {
+      "Key": "12e1820b-afbf-4c70-b2be-1d92db2c6db8",
+      "Value": "Why not say a bit more about yourself? Use this space as you like.\nThe future generations can learn from you.",
+      "LanguageIsoCode": "en-US"
+    },
+    {
+      "Key": "12e1820b-afbf-4c70-b2be-1d92db2c6db8",
+      "Value": "\u00BFPor qu\u00E9 no decir un poco m\u00E1s sobre ti? Usa este espacio como quieras.\nLas futuras generaciones pueden aprender de ti.",
+      "LanguageIsoCode": "es"
+    }
+  ],
+  "Udi": "umb://dictionary-item/12e1820bafbf4c70b2be1d92db2c6db8",
+  "Dependencies": [
+    {
+      "Udi": "umb://language/da",
+      "Ordering": true,
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://language/en-US",
+      "Ordering": true,
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://language/es",
+      "Ordering": true,
+      "Mode": "Exist"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DictionaryItemArtifact",
+  "__version": "18.0.1"
+}

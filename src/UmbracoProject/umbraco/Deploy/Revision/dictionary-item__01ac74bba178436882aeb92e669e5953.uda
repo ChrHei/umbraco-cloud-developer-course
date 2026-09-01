@@ -1,0 +1,47 @@
+{
+  "Name": "umb://dictionary-item/01ac74bba178436882aeb92e669e5953",
+  "ItemKey": "en-us",
+  "ParentId": "1bc66ca3-aed0-4838-8b27-c5512eba6c86",
+  "Translations": [
+    {
+      "Key": "01ac74bb-a178-4368-82ae-b92e669e5953",
+      "Value": "English",
+      "LanguageIsoCode": "da"
+    },
+    {
+      "Key": "01ac74bb-a178-4368-82ae-b92e669e5953",
+      "Value": "English",
+      "LanguageIsoCode": "en-US"
+    },
+    {
+      "Key": "01ac74bb-a178-4368-82ae-b92e669e5953",
+      "Value": "English",
+      "LanguageIsoCode": "es"
+    }
+  ],
+  "Udi": "umb://dictionary-item/01ac74bba178436882aeb92e669e5953",
+  "Dependencies": [
+    {
+      "Udi": "umb://dictionary-item/1bc66ca3aed048388b27c5512eba6c86",
+      "Ordering": true,
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://language/da",
+      "Ordering": true,
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://language/en-US",
+      "Ordering": true,
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://language/es",
+      "Ordering": true,
+      "Mode": "Exist"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DictionaryItemArtifact",
+  "__version": "18.0.1"
+}

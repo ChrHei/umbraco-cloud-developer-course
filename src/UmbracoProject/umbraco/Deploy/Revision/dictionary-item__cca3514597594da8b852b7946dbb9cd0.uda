@@ -1,0 +1,41 @@
+{
+  "Name": "umb://dictionary-item/cca3514597594da8b852b7946dbb9cd0",
+  "ItemKey": "Testimonials",
+  "Translations": [
+    {
+      "Key": "cca35145-9759-4da8-b852-b7946dbb9cd0",
+      "Value": "Udtalelser",
+      "LanguageIsoCode": "da"
+    },
+    {
+      "Key": "cca35145-9759-4da8-b852-b7946dbb9cd0",
+      "Value": "Testimonials",
+      "LanguageIsoCode": "en-US"
+    },
+    {
+      "Key": "cca35145-9759-4da8-b852-b7946dbb9cd0",
+      "Value": "Testimonios",
+      "LanguageIsoCode": "es"
+    }
+  ],
+  "Udi": "umb://dictionary-item/cca3514597594da8b852b7946dbb9cd0",
+  "Dependencies": [
+    {
+      "Udi": "umb://language/da",
+      "Ordering": true,
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://language/en-US",
+      "Ordering": true,
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://language/es",
+      "Ordering": true,
+      "Mode": "Exist"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DictionaryItemArtifact",
+  "__version": "18.0.1"
+}

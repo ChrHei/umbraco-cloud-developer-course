@@ -1,0 +1,41 @@
+{
+  "Name": "umb://dictionary-item/20d0c40306d94b9db8ab7d001e2c428d",
+  "ItemKey": "DescCommunity",
+  "Translations": [
+    {
+      "Key": "20d0c403-06d9-4b9d-b8ab-7d001e2c428d",
+      "Value": "Hvad er en Umbraco MVP? Hvert \u00E5r \u00E6rer vi de h\u00E5rdtarbejdende s\u00F8jler i Umbraco-samfundet - kendt som MVP\u0027er - eller Most Valuable People.\nVi er ydmyge over den m\u00E6ngde arbejde, der bliver lagt i projektet, hvad enten det drejer sig om:\n\nforummet\npull-anmodninger\npakker\nfestivaler\nm\u00F8der\nog masser af andre ting, som denne vidunderlige flok mennesker finder p\u00E5.",
+      "LanguageIsoCode": "da"
+    },
+    {
+      "Key": "20d0c403-06d9-4b9d-b8ab-7d001e2c428d",
+      "Value": "What is an Umbraco MVP? Every year we honour the hardworking pillars of the Umbraco community - known as MVPs - or Most Valuable People.\nWe are humbled by the amount of work that is being put into the project be it on:\n\nthe forum\npull-requests\npackages\nfestivals\nmeetups\nand plenty of other things that this wonderful bunch of people gets up to.",
+      "LanguageIsoCode": "en-US"
+    },
+    {
+      "Key": "20d0c403-06d9-4b9d-b8ab-7d001e2c428d",
+      "Value": "\u00BFQu\u00E9 es un MVP de Umbraco? Todos los a\u00F1os honramos a los pilares trabajadores de la comunidad de Umbraco, conocidos como MVP, o personas m\u00E1s valiosas.\nNos sentimos honrados por la cantidad de trabajo que se est\u00E1 poniendo en el proyecto, ya sea en:\n\nel foro\nsolicitudes de extracci\u00F3n\npaquetes\nfestivales\nreuniones\ny muchas otras cosas que hace este maravilloso grupo de personas.",
+      "LanguageIsoCode": "es"
+    }
+  ],
+  "Udi": "umb://dictionary-item/20d0c40306d94b9db8ab7d001e2c428d",
+  "Dependencies": [
+    {
+      "Udi": "umb://language/da",
+      "Ordering": true,
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://language/en-US",
+      "Ordering": true,
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://language/es",
+      "Ordering": true,
+      "Mode": "Exist"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DictionaryItemArtifact",
+  "__version": "18.0.1"
+}
