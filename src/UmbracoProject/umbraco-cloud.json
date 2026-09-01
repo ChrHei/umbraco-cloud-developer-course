@@ -1,11 +1,18 @@
 {
   "Deploy": {
     "Project": {
-      "Name": "cloud developer",
+      "Name": "Cloud Developer",
       "Alias": "cloud-developer",
       "Id": "161a0f3a-3718-499d-bbdb-ce2933c347e4",
+      "Url": "https://www.s1.umbraco.io/project/cloud-developer",
       "TrialExpireDate": "2026-09-15T11:41:44.0000000",
       "Workspaces": [
+        {
+          "Id": "cab731d3-e70f-42c4-b187-db339693d20d",
+          "Name": "Development",
+          "Type": "development",
+          "Url": "https://dev-cloud-developer.euwest01.umbraco.io"
+        },
         {
           "Id": "b1f32995-aa47-4b2b-9a7c-8ca742221f2b",
           "Name": "Live",
