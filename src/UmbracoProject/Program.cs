@@ -1,5 +1,13 @@
 
+using UmbracoProject.Services;
+
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddHttpClient<GiphyService>(client =>
+{
+    client.BaseAddress = new Uri("https://api.giphy.com/v1/");
+    client.DefaultRequestHeaders.UserAgent.ParseAdd("UmbracoSite/1.0");
+}).SetHandlerLifetime(TimeSpan.FromMinutes(5));
 
 builder.CreateUmbracoBuilder()
     .AddBackOffice()
@@ -8,7 +16,6 @@ builder.CreateUmbracoBuilder()
     .Build();
 
 WebApplication app = builder.Build();
-
 
 await app.BootUmbracoAsync();
 
